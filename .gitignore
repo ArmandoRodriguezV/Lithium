@@ -1,0 +1,96 @@
+
+# ==========================================
+# Compilación
+# ==========================================
+Build/
+build/
+cmake-build-*/
+cmake-build-debug/
+cmake-build-release/
+out/
+DerivedData/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.app/
+*.component/
+*.vst/
+*.vst3/
+*.aaxplugin/
+*.artefacts/
+*.zip
+
+# ==========================================
+# JUCE / Projucer
+# ==========================================
+JuceLibraryCode/
+JuceLibraryCode/AppConfig.h
+JuceLibraryCode/JuceHeader.h
+*.jucer.bak
+
+# ==========================================
+# CMake
+# ==========================================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# ==========================================
+# IDEs
+# ==========================================
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.vcxproj.user
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.env
+
+# ==========================================
+# Sistema operativo
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Logs y temporales
+# ==========================================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Cachés
+# ==========================================
+.cache/
+.cache-loader/
+.ninja_deps
+.ninja_log
+
+# ==========================================
+# Plugins compilados
+# ==========================================
+*.vst3
+*.vst
+*.component
+*.aaxplugin
